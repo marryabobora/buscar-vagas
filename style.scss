@@ -1,0 +1,410 @@
+@import 'styles/_variaveis.scss';
+
+* {
+    padding: 0px;
+    margin: 0px; 
+    color: $white;
+  }
+
+//phone
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 500px) {
+
+
+  body {
+      margin-left: 20px;
+
+    
+    .div-buscar-vagas {
+
+        .backgroundpc{
+            display: none;
+        }
+
+        .backgroundtablet{
+            display: none;
+        }
+
+        .backgroundphone {
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            margin-left: -20px;
+            margin-top: -20px;
+        }
+
+        h2.pacifico{
+            font-family: $pacifico;
+            font-size: 35px;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        article, button {
+            font-family: $montserrat;
+            font-size: 25px;
+
+        }
+
+        button {
+            background-color: $buttoncoloropacity;
+            padding: 5px;
+            border-radius: 8px;
+            border-style: none;
+            margin-bottom: 30px;
+            margin-top: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            height: 188px;
+            margin: auto;
+            background-color: $backcoloropacity;
+            border-radius: 8px;
+            border-style: none;
+            position: absolute;
+ 
+            
+            
+            .caixa{
+                background-color: $boxcoloropacity;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 8px;
+                border-style: none;
+                font-family: $montserrat;
+                width: 90%;
+                margin-top: 18px;
+                margin-left: 5vw;
+                color: $white;
+            }
+
+
+
+           
+            .button-search {
+                width: 80%;
+                background-color: $buttoncoloropacity;
+                padding: 5px;
+                border-radius: 8px;
+                margin-left: 6vw;
+                margin-top: 20px;
+                margin: auto;
+    
+                input{
+                    background-color: rgba(130, 36, 226, 0.0);
+                    border-style: none;
+                    font-family: $roboto;
+                    font-size: 25px;
+                    padding-right: 40px;
+                    z-index: 2;
+
+                }
+    
+                i {
+                    position: absolute;
+                    font-size: 22px;
+                    margin-top: 4px;
+                    z-index: 0;
+                    margin-left: -28px;
+
+                }
+            }
+            
+        }
+
+       
+
+
+
+
+
+    }
+    
+
+  }
+
+}
+
+
+//tablet
+
+@media screen and (min-device-width: 501px) and (max-device-width: 899px){
+    body {
+        margin-left: 20px;
+  
+      
+      .div-buscar-vagas {
+  
+          .backgroundpc{
+            display: none;  
+          }
+  
+          .backgroundphone {
+            display: none;
+          }
+
+          .backgroundtablet{
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            margin-left: -20px;
+            margin-top: -20px;
+        }
+  
+          h2.pacifico{
+              font-family: $pacifico;
+              font-size: 40px;
+              padding-bottom: 25px;
+              padding-top: 25px;
+          }
+
+          
+  
+          article, button {
+              font-family: $montserrat;
+              font-size: 18px;
+              margin-top: 10px;
+  
+  
+          }
+
+          article {
+            br {
+                display: none;
+            }
+            .hide{
+                display: none;
+            }
+          }
+  
+          button {
+              background-color: $buttoncoloropacity;
+              padding: 5px;
+              border-radius: 8px;
+              border-style: none;
+              margin-bottom: 30px;
+              margin-top: 15px;
+          }
+  
+          form {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            height: 50px;
+            background-color: $backcoloropacity;
+            border-radius: 8px;
+            border-style: none;
+            position: absolute;
+            padding-left: 30px;
+            padding-right: 30px;
+ 
+            
+            
+            .caixa{
+                background-color: $boxcoloropacity;
+                padding-top: 1px;
+                padding-bottom: 1px;
+                padding-left: 5px;
+                border-radius: 8px;
+                border-style: none;
+                font-family: $montserrat;
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 20px;
+                color: $white;
+            }
+
+
+
+           
+            .button-search {
+                width: 30%;
+                background-color: $buttoncoloropacity;
+                padding-top: 9px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 5px;
+                border-radius: 8px;
+                margin-left: 6vw;
+                margin: auto;
+    
+                input{
+                    background-color: rgba(130, 36, 226, 0.0);
+                    border-style: none;
+                    font-family: $roboto;
+                    font-size: 15px;
+                    padding-right: 20px;
+                    z-index: 2;
+
+                }
+    
+                i {
+                    position: absolute;
+                    font-size: 12px;
+                    margin-top: 4px;
+                    z-index: 0;
+                    margin-left: -11px;
+
+                }
+            }
+            
+        }
+
+  
+         
+  
+  
+  
+  
+  
+      }
+      
+  
+    }
+    
+
+}
+
+
+
+//pc
+
+@media screen and (min-device-width: 900px) {
+
+    body {
+        margin-left: 20px;
+  
+      
+      .div-buscar-vagas {
+  
+          .backgroundpc{
+            width: 80%;
+            position: absolute;
+            z-index: -1;
+            margin-left: -20px;
+            margin-top: -20px;
+              
+          }
+  
+          .backgroundphone {
+            display: none;
+          }
+
+          .backgroundtablet{
+            display: none;
+        }
+  
+          h2.pacifico{
+              font-family: $pacifico;
+              font-size: 80px;
+              margin-top: 20px;
+              padding-bottom: 25px;
+              padding-top: 55px;
+          }
+  
+          article, button {
+              font-family: $montserrat;
+              font-size: 30px;
+              margin-top: 50px;
+              margin-bottom: 50px;
+  
+          }
+
+          article {
+            br {
+                display: none;
+            }
+            .hide{
+                display: none;
+            }
+          }
+  
+          button {
+              background-color: $buttoncoloropacity;
+              padding: 5px;
+              border-radius: 8px;
+              border-style: none;
+              margin-bottom: 30px;
+              margin-top: 15px;
+          }
+  
+          form {
+            display: flex;
+            flex-direction: row;
+            width: 60%;
+            height: 70px;
+            background-color: $backcoloropacity;
+            border-radius: 8px;
+            border-style: none;
+            position: absolute;
+            padding-left: 30px;
+            padding-right: 30px;
+ 
+            
+            
+            .caixa{
+                background-color: $boxcoloropacity;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 5px;
+                border-radius: 8px;
+                border-style: none;
+                font-family: $montserrat;
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 50px;
+                color: $white;
+            }
+
+
+
+           
+            .button-search {
+                width: 40%;
+                background-color: $buttoncoloropacity;
+                padding: 10px;
+                border-radius: 8px;
+                margin-left: 6vw;
+                margin-top: 20px;
+                margin: auto;
+    
+                input{
+                    background-color: rgba(130, 36, 226, 0.0);
+                    border-style: none;
+                    font-family: $roboto;
+                    font-size: 20px;
+                    padding-right: 40px;
+                    z-index: 2;
+
+                }
+    
+                i {
+                    position: absolute;
+                    font-size: 18px;
+                    margin-top: 4px;
+                    z-index: 0;
+                    margin-left: -28px;
+
+                }
+            }
+            
+        }
+
+  
+         
+  
+  
+  
+  
+  
+      }
+      
+  
+    }
+
+}

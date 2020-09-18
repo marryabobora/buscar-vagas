@@ -1,0 +1,297 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: #FFFF;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  body {
+    margin-left: 20px;
+  }
+  body .div-buscar-vagas .backgroundpc {
+    display: none;
+  }
+  body .div-buscar-vagas .backgroundtablet {
+    display: none;
+  }
+  body .div-buscar-vagas .backgroundphone {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  body .div-buscar-vagas h2.pacifico {
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  body .div-buscar-vagas article, body .div-buscar-vagas button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+  }
+  body .div-buscar-vagas button {
+    background-color: rgba(130, 36, 226, 0.6);
+    padding: 5px;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+  body .div-buscar-vagas form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: 188px;
+    margin: auto;
+    background-color: rgba(26, 0, 56, 0.3);
+    border-radius: 8px;
+    border-style: none;
+    position: absolute;
+  }
+  body .div-buscar-vagas form .caixa {
+    background-color: rgba(2, 2, 2, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border-style: none;
+    font-family: "Montserrat", sans-serif;
+    width: 90%;
+    margin-top: 18px;
+    margin-left: 5vw;
+    color: #FFFF;
+  }
+  body .div-buscar-vagas form .button-search {
+    width: 80%;
+    background-color: rgba(130, 36, 226, 0.6);
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 6vw;
+    margin-top: 20px;
+    margin: auto;
+  }
+  body .div-buscar-vagas form .button-search input {
+    background-color: rgba(130, 36, 226, 0);
+    border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    padding-right: 40px;
+    z-index: 2;
+  }
+  body .div-buscar-vagas form .button-search i {
+    position: absolute;
+    font-size: 22px;
+    margin-top: 4px;
+    z-index: 0;
+    margin-left: -28px;
+  }
+}
+
+@media screen and (min-device-width: 501px) and (max-device-width: 899px) {
+  body {
+    margin-left: 20px;
+  }
+  body .div-buscar-vagas .backgroundpc {
+    display: none;
+  }
+  body .div-buscar-vagas .backgroundphone {
+    display: none;
+  }
+  body .div-buscar-vagas .backgroundtablet {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  body .div-buscar-vagas h2.pacifico {
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  body .div-buscar-vagas article, body .div-buscar-vagas button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  body .div-buscar-vagas article br {
+    display: none;
+  }
+  body .div-buscar-vagas article .hide {
+    display: none;
+  }
+  body .div-buscar-vagas button {
+    background-color: rgba(130, 36, 226, 0.6);
+    padding: 5px;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+  body .div-buscar-vagas form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 80%;
+    height: 50px;
+    background-color: rgba(26, 0, 56, 0.3);
+    border-radius: 8px;
+    border-style: none;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  body .div-buscar-vagas form .caixa {
+    background-color: rgba(2, 2, 2, 0.3);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    border-radius: 8px;
+    border-style: none;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    color: #FFFF;
+  }
+  body .div-buscar-vagas form .button-search {
+    width: 30%;
+    background-color: rgba(130, 36, 226, 0.6);
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    margin-left: 6vw;
+    margin: auto;
+  }
+  body .div-buscar-vagas form .button-search input {
+    background-color: rgba(130, 36, 226, 0);
+    border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding-right: 20px;
+    z-index: 2;
+  }
+  body .div-buscar-vagas form .button-search i {
+    position: absolute;
+    font-size: 12px;
+    margin-top: 4px;
+    z-index: 0;
+    margin-left: -11px;
+  }
+}
+
+@media screen and (min-device-width: 900px) {
+  body {
+    margin-left: 20px;
+  }
+  body .div-buscar-vagas .backgroundpc {
+    width: 80%;
+    position: absolute;
+    z-index: -1;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  body .div-buscar-vagas .backgroundphone {
+    display: none;
+  }
+  body .div-buscar-vagas .backgroundtablet {
+    display: none;
+  }
+  body .div-buscar-vagas h2.pacifico {
+    font-family: "Pacifico", cursive;
+    font-size: 80px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    padding-top: 55px;
+  }
+  body .div-buscar-vagas article, body .div-buscar-vagas button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  body .div-buscar-vagas article br {
+    display: none;
+  }
+  body .div-buscar-vagas article .hide {
+    display: none;
+  }
+  body .div-buscar-vagas button {
+    background-color: rgba(130, 36, 226, 0.6);
+    padding: 5px;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+  body .div-buscar-vagas form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 60%;
+    height: 70px;
+    background-color: rgba(26, 0, 56, 0.3);
+    border-radius: 8px;
+    border-style: none;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  body .div-buscar-vagas form .caixa {
+    background-color: rgba(2, 2, 2, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 8px;
+    border-style: none;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    color: #FFFF;
+  }
+  body .div-buscar-vagas form .button-search {
+    width: 40%;
+    background-color: rgba(130, 36, 226, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 6vw;
+    margin-top: 20px;
+    margin: auto;
+  }
+  body .div-buscar-vagas form .button-search input {
+    background-color: rgba(130, 36, 226, 0);
+    border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding-right: 40px;
+    z-index: 2;
+  }
+  body .div-buscar-vagas form .button-search i {
+    position: absolute;
+    font-size: 18px;
+    margin-top: 4px;
+    z-index: 0;
+    margin-left: -28px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
