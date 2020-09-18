@@ -118,8 +118,23 @@
     text-align: justify;
     font-size: 19px;
   }
-  body .div-vagas-resultados article {
-    margin-bottom: 50px;
+  body .div-vagas-resultados .display-vaga {
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #E7E6E8;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 10px;
+    -webkit-box-shadow: 1px 5px 12px #E7E6E8;
+            box-shadow: 1px 5px 12px #E7E6E8;
+  }
+  body .div-vagas-resultados button {
+    background-color: rgba(130, 36, 226, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 15px;
+    font-size: 20px;
   }
 }
 
@@ -249,8 +264,23 @@
     text-align: justify;
     font-size: 19px;
   }
-  body .div-vagas-resultados article {
-    margin-bottom: 80px;
+  body .div-vagas-resultados .display-vaga {
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #E7E6E8;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 10px;
+    -webkit-box-shadow: 1px 5px 12px #E7E6E8;
+            box-shadow: 1px 5px 12px #E7E6E8;
+  }
+  body .div-vagas-resultados button {
+    background-color: rgba(130, 36, 226, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 15px;
+    font-size: 20px;
   }
 }
 
@@ -383,8 +413,39 @@
     text-align: justify;
     font-size: 19px;
   }
-  body .div-vagas-resultados article {
-    margin-bottom: 80px;
+  body .div-vagas-resultados .display-vaga {
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #E7E6E8;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 10px;
+    -webkit-box-shadow: 1px 5px 12px #FBF8FF;
+            box-shadow: 1px 5px 12px #FBF8FF;
+  }
+  body .div-vagas-resultados .display-vaga:hover {
+    -webkit-box-shadow: 1px 5px 12px #E7E6E8;
+            box-shadow: 1px 5px 12px #E7E6E8;
+  }
+  body .div-vagas-resultados .display-vaga:hover h2 {
+    color: #8224E2;
+  }
+  body .div-vagas-resultados .display-vaga:hover span {
+    color: #070707;
+  }
+  body .div-vagas-resultados .display-vaga:hover p {
+    color: #070707;
+  }
+  body .div-vagas-resultados .display-vaga:hover button {
+    background-color: #8224E2;
+  }
+  body .div-vagas-resultados button {
+    background-color: rgba(130, 36, 226, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 15px;
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

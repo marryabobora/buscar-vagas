@@ -142,8 +142,28 @@
                 font-size: 19px;
             }
 
-            article{
-                margin-bottom: 50px;
+
+
+            .display-vaga{
+                padding: 20px;
+                margin-bottom: 40px;
+                border: 1px solid $gray3;
+                border-radius: 8px;
+                border: 1px solid;
+                padding: 10px;
+                box-shadow: 1px 5px 12px $gray3;
+                
+            }
+
+
+            button {
+                background-color: $buttoncoloropacity;
+                padding: 10px;
+                border-radius: 8px;
+                border-style: none;
+                margin-top: 15px;
+                font-size: 20px;
+                
             }
 
         
@@ -316,9 +336,29 @@
                 font-size: 19px;
             }
 
-            article{
-                margin-bottom: 80px;
+
+            .display-vaga{
+                padding: 20px;
+                margin-bottom: 40px;
+                border: 1px solid $gray3;
+                border-radius: 8px;
+                border: 1px solid;
+                padding: 10px;
+                box-shadow: 1px 5px 12px $gray3;
+                
             }
+
+
+            button {
+                background-color: $buttoncoloropacity;
+                padding: 10px;
+                border-radius: 8px;
+                border-style: none;
+                margin-top: 15px;
+                font-size: 20px;
+                
+            }
+
     }
   
     }
@@ -475,6 +515,8 @@
                 color: $primarycolor;
                 font-size: 30px;
             }
+
+
             span {
                 color:$gray2;
                 font-size: 17px;
@@ -487,9 +529,50 @@
                 font-size: 19px;
             }
 
-            article{
-                margin-bottom: 80px;
+
+
+            .display-vaga{
+                padding: 20px;
+                margin-bottom: 40px;
+                border: 1px solid $gray3;
+                border-radius: 8px;
+                border: 1px solid;
+                padding: 10px;
+                box-shadow: 1px 5px 12px $gray4;
+                
             }
+
+            .display-vaga:hover{
+                h2{
+                    color: $primarycolor;
+                }
+                span{
+                    color: $gray;
+                }
+                p{
+                    color: $gray;
+                }
+                button {
+                    background-color:$primarycolor;
+                }
+                box-shadow: 1px 5px 12px $gray3;
+
+            }
+
+
+            button {
+                background-color: $buttoncoloropacity;
+                padding: 10px;
+                border-radius: 8px;
+                border-style: none;
+                margin-top: 15px;
+                font-size: 20px;
+                
+            }
+
+            
+
+            
     }
       
   
