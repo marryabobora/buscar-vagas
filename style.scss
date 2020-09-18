@@ -115,14 +115,35 @@
             
         }
 
-       
-
-
-
-
-
     }
     
+    .div-vagas-resultados{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-family: $roboto;
+        width: 90%;
+        top: 80vw;
+        
+
+            h2 {
+                color: $primarycolor;
+                font-size: 30px;
+            }
+            span {
+                color:$gray2;
+                font-size: 17px;
+                line-height: 40px;
+            }
+
+            p{
+                color: $gray;
+                text-align: justify;
+                font-size: 19px;
+            }
+    }
+
+
 
   }
 
@@ -263,6 +284,32 @@
   
       }
       
+
+      .div-vagas-resultados{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-family: $roboto;
+        width: 90%;
+        top: 15vw;
+        
+
+            h2 {
+                color: $primarycolor;
+                font-size: 30px;
+            }
+            span {
+                color:$gray2;
+                font-size: 17px;
+                line-height: 40px;
+            }
+
+            p{
+                color: $gray;
+                text-align: justify;
+                font-size: 19px;
+            }
+    }
   
     }
     
@@ -403,6 +450,33 @@
   
   
       }
+
+      .div-vagas-resultados{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: $roboto;
+        width: 80%;
+        top: 10vw;
+        
+
+            h2 {
+                color: $primarycolor;
+                font-size: 30px;
+            }
+            span {
+                color:$gray2;
+                font-size: 17px;
+                line-height: 40px;
+            }
+
+            p{
+                color: $gray;
+                text-align: justify;
+                font-size: 19px;
+            }
+    }
       
   
     }
