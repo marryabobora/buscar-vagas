@@ -15,75 +15,81 @@
     <title>Buscar Vagas</title>
 </head>
 <body>
-    
-    <div class="div-buscar-vagas">
-        <img src="assets/background-pc.jpg" class="backgroundpc">
-        <img src="assets/background-phone.jpg"  class="backgroundphone" >
-        <img src="assets/background-tablet.jpg"  class="backgroundtablet" >
+    <div class="container">
+        <div class="div-buscar-vagas">
+            <img src="assets/background-pc.jpg" alt="" class="img-background">
+            <div class="banner-content">
+                <h2 class="pacifico">Buscar Vagas</h2>
+
+                <div>
+                    <p>Quer receber nossas vagas por e-mail? <br>Assine a nossa <a class="button-buscar-vagas" href="blank_">newsletter!</a></p>
+                </div>
+
+                
+                <form class="div-caixa-buscar-vaga" action="">
+
+                    <select id="vaga-area" name="vaga-area"  class="caixa"> 
+                        <option value="area" selected> Selecione a cidade </option>
+                        <option value="recepcao">Osasco</option>
+                        <option value="programacao">Carapicuiba</option>
+                    </select>
+
+                    <input type="text" placeholder="  Escolha uma área" class="caixa">
+
+                    <button type="submit" class="button-search">
+                        Buscar a sua vaga!
+                        <i class="fas fa-search"></i>
+                    </button>
             
-        <h2 class="pacifico">Buscar Vagas</h2>
-
-        <article>
-            <p>Quer receber</br>
-            nossas vagas </br>
-            por e-mail? </br>
-            <p class="hide"></p>
-            Assine a nossa</br>
-            <button class="button-buscar-vagas" href="blank_">newsletter!</button>
-        </article>
-
-        
-        <form class="div-caixa-buscar-vaga" action="">
-
-            <select id="vaga-area" name="vaga-area"  class="caixa"> 
-                <option value="area" selected> Selecione a cidade </option>
-                <option value="recepcao">Osasco</option>
-                <option value="programacao">Carapicuiba</option>
-            </select>
-
-            <input type="text" placeholder="  Escolha uma área" class="caixa">
-
-            <div class="button-search">
-                <input type="submit" value=" Buscar a sua vaga!" class="roboto" >
-                <i class="fas fa-search"></i>
+                </form>
             </div>
-       
-        </form>
-
-        
-
-
-    </div>
-
-    <div  class="div-vagas-resultados">
-
-        <div class="display-vaga">
-
-            <h2 id="vaga-nome">Nombre de la vacante</h2>
-            <p class="cidade-estado"><span id="vaga-cidade">Cidade </span> <span id="vaga-estado"> - Estado</span></p>
-            <p class="descricao" id="vaga-descricao">Arquivo, Cadastrar Informações em sistema, Elaboração de orçamentos, envio de e-mails, atendimento a clientes e fornecedores, rotinas de escritório, compras.</p>
-
-            <button>Mais informações</button>
-            
-
         </div>
 
+        <div  class="div-vagas-resultados">
+            <div class="display-vaga">
 
-        <div class="display-vaga">
+                <h2 id="vaga-nome">Nombre de la vacante</h2>
+                <p class="cidade-estado"><span id="vaga-cidade">Cidade </span> <span id="vaga-estado"> - Estado</span></p>
+                <p class="descricao" id="vaga-descricao">Arquivo, Cadastrar Informações em sistema, Elaboração de orçamentos, envio de e-mails, atendimento a clientes e fornecedores, rotinas de escritório, compras.</p>
 
-            <h2 id="vaga-nome">Nombre de la vacante</h2>
-            <p class="cidade-estado"><span id="vaga-cidade">Cidade </span> <span id="vaga-estado"> - Estado</span></p>
-            <p class="descricao" id="vaga-descricao">Arquivo, Cadastrar Informações em sistema, Elaboração de orçamentos, envio de e-mails, atendimento a clientes e fornecedores, rotinas de escritório, compras.</p>
-            
-            <button>Mais informações</button>
+                <button>Mais informações</button>
+                
 
+            </div>
+
+
+            <div class="display-vaga">
+
+                <h2 id="vaga-nome">Nombre de la vacante</h2>
+                <p class="cidade-estado"><span id="vaga-cidade">Cidade </span> <span id="vaga-estado"> - Estado</span></p>
+                <p class="descricao" id="vaga-descricao">Arquivo, Cadastrar Informações em sistema, Elaboração de orçamentos, envio de e-mails, atendimento a clientes e fornecedores, rotinas de escritório, compras.</p>
+                
+                <button>Mais informações</button>
+
+            </div>
+
+            <div class="display-vaga">
+
+                <h2 id="vaga-nome">Nombre de la vacante</h2>
+                <p class="cidade-estado"><span id="vaga-cidade">Cidade </span> <span id="vaga-estado"> - Estado</span></p>
+                <p class="descricao" id="vaga-descricao">Arquivo, Cadastrar Informações em sistema, Elaboração de orçamentos, envio de e-mails, atendimento a clientes e fornecedores, rotinas de escritório, compras.</p>
+                
+                <button>Mais informações</button>
+
+            </div>
+
+            <div class="display-vaga">
+
+                <h2 id="vaga-nome">Nombre de la vacante</h2>
+                <p class="cidade-estado"><span id="vaga-cidade">Cidade </span> <span id="vaga-estado"> - Estado</span></p>
+                <p class="descricao" id="vaga-descricao">Arquivo, Cadastrar Informações em sistema, Elaboração de orçamentos, envio de e-mails, atendimento a clientes e fornecedores, rotinas de escritório, compras.</p>
+                
+                <button>Mais informações</button>
+
+            </div>
         </div>
-
-
-
-
-
     </div>
+    
 
 </body>
 </html>

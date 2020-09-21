@@ -1,453 +1,193 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  color: #FFFF;
+body {
+	margin: 0;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 500px) {
-  body {
-    margin-left: 20px;
-  }
-  body .div-buscar-vagas .backgroundpc {
-    display: none;
-  }
-  body .div-buscar-vagas .backgroundtablet {
-    display: none;
-  }
-  body .div-buscar-vagas .backgroundphone {
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    margin-left: -20px;
-    margin-top: -20px;
-  }
-  body .div-buscar-vagas h2.pacifico {
-    font-family: "Pacifico", cursive;
-    font-size: 35px;
-    margin-top: 20px;
-    padding-bottom: 20px;
-  }
-  body .div-buscar-vagas article, body .div-buscar-vagas button {
-    font-family: "Montserrat", sans-serif;
+.container {
+	max-width: 1500px;
+}
+
+.div-buscar-vagas {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	color: white;
+	font-family: "Montserrat", sans-serif;
     font-size: 25px;
-  }
-  body .div-buscar-vagas button {
-    background-color: rgba(130, 36, 226, 0.6);
-    padding: 5px;
-    border-radius: 8px;
-    border-style: none;
-    margin-bottom: 30px;
-    margin-top: 15px;
-  }
-  body .div-buscar-vagas form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 90%;
-    height: 188px;
-    margin: auto;
-    background-color: rgba(26, 0, 56, 0.3);
-    border-radius: 8px;
-    border-style: none;
-    position: absolute;
-  }
-  body .div-buscar-vagas form .caixa {
-    background-color: rgba(2, 2, 2, 0.3);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 8px;
-    border-style: none;
-    font-family: "Montserrat", sans-serif;
-    width: 90%;
-    margin-top: 18px;
-    margin-left: 5vw;
-    color: #FFFF;
-  }
-  body .div-buscar-vagas form .button-search {
-    width: 80%;
-    background-color: rgba(130, 36, 226, 0.6);
-    padding: 5px;
-    border-radius: 8px;
-    margin-left: 6vw;
-    margin-top: 20px;
-    margin: auto;
-  }
-  body .div-buscar-vagas form .button-search input {
-    background-color: rgba(130, 36, 226, 0);
-    border-style: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    padding-right: 40px;
-    z-index: 2;
-  }
-  body .div-buscar-vagas form .button-search i {
-    position: absolute;
-    font-size: 22px;
-    margin-top: 4px;
-    z-index: 0;
-    margin-left: -28px;
-  }
-  body .div-vagas-resultados {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    font-family: "Roboto", sans-serif;
-    width: 90%;
-    top: 70vw;
-  }
-  body .div-vagas-resultados h2 {
-    color: #8224E2;
-    font-size: 30px;
-  }
-  body .div-vagas-resultados span {
-    color: gray;
-    font-size: 17px;
-    line-height: 40px;
-  }
-  body .div-vagas-resultados p {
-    color: #070707;
-    text-align: justify;
-    font-size: 19px;
-  }
-  body .div-vagas-resultados .display-vaga {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    margin-bottom: 40px;
-    border: 1px solid #E7E6E8;
-    border-radius: 8px;
-    border: 1px solid;
-    -webkit-box-shadow: 1px 5px 12px #E7E6E8;
-            box-shadow: 1px 5px 12px #E7E6E8;
-  }
-  body .div-vagas-resultados button {
-    background-color: #8224E2;
-    padding: 10px;
-    border-radius: 8px;
-    border-style: none;
-    margin-top: 15px;
-    font-size: 20px;
-  }
 }
 
-@media screen and (min-device-width: 501px) and (max-device-width: 899px) {
-  body {
-    margin-left: 20px;
-  }
-  body .div-buscar-vagas .backgroundpc {
-    display: none;
-  }
-  body .div-buscar-vagas .backgroundphone {
-    display: none;
-  }
-  body .div-buscar-vagas .backgroundtablet {
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    margin-left: -20px;
-    margin-top: -20px;
-  }
-  body .div-buscar-vagas h2.pacifico {
-    font-family: "Pacifico", cursive;
-    font-size: 40px;
-    padding-bottom: 25px;
-    padding-top: 25px;
-  }
-  body .div-buscar-vagas article, body .div-buscar-vagas button {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    margin-top: 10px;
-  }
-  body .div-buscar-vagas article br {
-    display: none;
-  }
-  body .div-buscar-vagas article .hide {
-    display: none;
-  }
-  body .div-buscar-vagas button {
-    background-color: rgba(130, 36, 226, 0.6);
-    padding: 5px;
-    border-radius: 8px;
-    border-style: none;
-    margin-bottom: 30px;
-    margin-top: 15px;
-  }
-  body .div-buscar-vagas form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 80%;
-    height: 50px;
-    background-color: rgba(26, 0, 56, 0.3);
-    border-radius: 8px;
-    border-style: none;
-    position: absolute;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  body .div-buscar-vagas form .caixa {
-    background-color: rgba(2, 2, 2, 0.3);
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 5px;
-    border-radius: 8px;
-    border-style: none;
-    font-family: "Montserrat", sans-serif;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 20px;
-    color: #FFFF;
-  }
-  body .div-buscar-vagas form .button-search {
-    width: 30%;
-    background-color: rgba(130, 36, 226, 0.6);
-    padding-top: 9px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    border-radius: 8px;
-    margin-left: 6vw;
-    margin: auto;
-  }
-  body .div-buscar-vagas form .button-search input {
-    background-color: rgba(130, 36, 226, 0);
-    border-style: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    padding-right: 20px;
-    z-index: 2;
-  }
-  body .div-buscar-vagas form .button-search i {
-    position: absolute;
-    font-size: 12px;
-    margin-top: 4px;
-    z-index: 0;
-    margin-left: -11px;
-  }
-  body .div-vagas-resultados {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    font-family: "Roboto", sans-serif;
-    width: 90%;
-    top: 15vw;
-  }
-  body .div-vagas-resultados h2 {
-    color: #8224E2;
-    font-size: 30px;
-  }
-  body .div-vagas-resultados span {
-    color: gray;
-    font-size: 17px;
-    line-height: 40px;
-  }
-  body .div-vagas-resultados p {
-    color: #070707;
-    text-align: justify;
-    font-size: 19px;
-  }
-  body .div-vagas-resultados .display-vaga {
-    padding: 20px;
-    margin-bottom: 40px;
-    border: 1px solid #E7E6E8;
-    border-radius: 8px;
-    border: 1px solid;
-    padding: 10px;
-    -webkit-box-shadow: 1px 5px 12px #E7E6E8;
-            box-shadow: 1px 5px 12px #E7E6E8;
-  }
-  body .div-vagas-resultados button {
-    background-color: rgba(130, 36, 226, 0.6);
-    padding: 10px;
-    border-radius: 8px;
-    border-style: none;
-    margin-top: 15px;
-    font-size: 20px;
-  }
+.img-background {
+	width: 100%;
+	height: auto;
 }
 
-@media screen and (min-device-width: 900px) {
-  body {
-    margin-left: 20px;
-  }
-  body .div-buscar-vagas .backgroundpc {
-    width: 80%;
-    position: absolute;
-    z-index: -1;
-    margin-left: -20px;
-    margin-top: -20px;
-  }
-  body .div-buscar-vagas .backgroundphone {
-    display: none;
-  }
-  body .div-buscar-vagas .backgroundtablet {
-    display: none;
-  }
-  body .div-buscar-vagas h2.pacifico {
+.banner-content {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+
+.banner-content h2 {
+	color: white;
+	margin: 0;
     font-family: "Pacifico", cursive;
-    font-size: 80px;
-    margin-top: 20px;
-    padding-bottom: 25px;
-    padding-top: 55px;
-  }
-  body .div-buscar-vagas article, body .div-buscar-vagas button {
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  body .div-buscar-vagas article br {
-    display: none;
-  }
-  body .div-buscar-vagas article .hide {
-    display: none;
-  }
-  body .div-buscar-vagas button {
-    background-color: rgba(130, 36, 226, 0.6);
-    padding: 5px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.banner-content p {
+	margin: 15px 0 30px;
+    line-height: 40px;
+}
+
+.banner-content p a {
+	color: white;
+	text-decoration: none;
+	background-color: rgba(130, 36, 226, 0.6);
+    padding: 3px 8px 3px 8px;
     border-radius: 8px;
     border-style: none;
-    margin-bottom: 30px;
-    margin-top: 15px;
-  }
-  body .div-buscar-vagas form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 60%;
-    height: 70px;
+}
+
+.banner-content form {
     background-color: rgba(26, 0, 56, 0.3);
     border-radius: 8px;
     border-style: none;
-    position: absolute;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  body .div-buscar-vagas form .caixa {
-    background-color: rgba(2, 2, 2, 0.3);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
+    width: fit-content;
+    padding: 10px 30px 10px 15px; 
+}
+
+.banner-content form .caixa {
+	background-color: rgba(2, 2, 2, 0.3);
+	width: 250px;
+	height: 40px;
+    padding: 0 0 0 5px;
     border-radius: 8px;
     border-style: none;
     font-family: "Montserrat", sans-serif;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 50px;
+    /*width: 100%;*/
+    margin-right: 25px;
     color: #FFFF;
-  }
-  body .div-buscar-vagas form .button-search {
-    width: 40%;
-    background-color: rgba(130, 36, 226, 0.6);
-    padding: 10px;
-    border-radius: 8px;
-    margin-left: 6vw;
-    margin-top: 20px;
-    margin: auto;
-  }
-  body .div-buscar-vagas form .button-search input {
-    background-color: rgba(130, 36, 226, 0);
-    border-style: none;
+}
+
+.banner-content form button {
+	display: inline-flex;
+    vertical-align: top;
+	color: white;
+    background-color: rgba(130, 36, 226);
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    padding-right: 40px;
-    z-index: 2;
-  }
-  body .div-buscar-vagas form .button-search i {
-    position: absolute;
     font-size: 18px;
-    margin-top: 4px;
-    z-index: 0;
-    margin-left: -28px;
-  }
-  body .div-vagas-resultados {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-family: "Roboto", sans-serif;
-    width: 80%;
-    top: 10vw;
-  }
-  body .div-vagas-resultados h2 {
-    color: #8224E2;
-    font-size: 30px;
-  }
-  body .div-vagas-resultados span {
-    color: gray;
-    font-size: 17px;
-    line-height: 40px;
-  }
-  body .div-vagas-resultados p {
-    color: #070707;
-    text-align: justify;
-    font-size: 19px;
-  }
-  body .div-vagas-resultados .display-vaga {
-    padding: 20px;
-    margin-bottom: 40px;
+	height: 40px;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.banner-content form button i {
+	margin-left: 10px;
+    align-self: center;
+}
+
+.div-vagas-resultados {
+	padding: 30px 10px 70px 10px;
+}
+
+.display-vaga {
+    display: block;
+    margin-bottom: 20px;
     border: 1px solid #E7E6E8;
     border-radius: 8px;
-    border: 1px solid;
-    padding: 10px;
+    padding: 10px 60px 10px 20px;
     -webkit-box-shadow: 1px 5px 12px #FBF8FF;
-            box-shadow: 1px 5px 12px #FBF8FF;
-  }
-  body .div-vagas-resultados .display-vaga:hover {
-    -webkit-box-shadow: 1px 5px 12px #E7E6E8;
-            box-shadow: 1px 5px 12px #E7E6E8;
-  }
-  body .div-vagas-resultados .display-vaga:hover h2 {
-    color: #8224E2;
-  }
-  body .div-vagas-resultados .display-vaga:hover span {
-    color: #070707;
-  }
-  body .div-vagas-resultados .display-vaga:hover p {
-    color: #070707;
-  }
-  body .div-vagas-resultados .display-vaga:hover button {
-    background-color: #8224E2;
-  }
-  body .div-vagas-resultados button {
-    background-color: rgba(130, 36, 226, 0.6);
-    padding: 10px;
-    border-radius: 8px;
-    border-style: none;
-    margin-top: 15px;
-    font-size: 20px;
-  }
+    box-shadow: 1px 5px 12px #FBF8FF;
+    font-family: "Roboto", sans-serif;
 }
-/*# sourceMappingURL=style.css.map */
+
+.display-vaga h2 {
+	color: #8224E2;
+	font-size: 30px;
+    font-weight: bold;
+	margin: 0;
+}
+
+.display-vaga .cidade-estado {
+	color: gray;
+	font-size: 17px;
+	line-height: 40px;
+}
+
+.display-vaga p {
+	color: #070707;
+	margin: 0;
+	text-align: justify;
+	font-size: 19px;
+}
+
+.display-vaga button {
+	color: white;
+	background-color: rgba(130, 36, 226, 0.6);
+	padding: 10px;
+	border-radius: 8px;
+	border-style: none;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.display-vaga:hover {
+	-webkit-box-shadow: 1px 5px 12px #E7E6E8;
+	box-shadow: 1px 5px 12px #E7E6E8;
+}
+
+.display-vaga:hover h2 {
+	color: #8224E2;
+}
+
+.display-vaga:hover .cidade-estado {
+	color: #070707;
+}
+
+.display-vaga:hover p {
+	color: #070707;
+}
+
+.display-vaga:hover button {
+	background-color: #8224E2;
+}
+
+@media screen and (max-device-width: 960px) {
+	.img-background {
+		height: 500px!important;
+		width: 98%!important;
+		margin-left: 1%;
+	}
+
+	.banner-content h2 {
+		font-size: 50px;
+	}
+
+	.banner-content p {
+    	font-size: 20px;
+    	line-height: 30px;
+	}
+
+	.banner-content form {
+		width: 50%;
+	}
+
+	.banner-content form .caixa {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-device-width: 500px) {
+	.banner-content form {
+	    width: 100%;
+	    display: grid;
+	    padding: 10px 15px 10px 15px;
+	}
+
+	.banner-content button {
+		margin-top: 10px;
+	}
+
+}
