@@ -1,18 +1,35 @@
-body {
-	margin: 0;
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
 }
 
-.container {
-	max-width: 1500px;
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+	height: 200px;
+}
+
+.ui-helper-hidden-accessible{
+    display:none !important;
 }
 
 .div-buscar-vagas {
-	width: 100%;
+	min-height: 600px;
+	background-image: url("../buscarvagas_assets/background-pc.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    margin: -35px -25px 0 -25px;
 	position: relative;
 	text-align: left;
 	color: white;
 	font-family: "Montserrat", sans-serif;
-    font-size: 25px;
+	font-size: 25px;
+	position: absolute;
 }
 
 .img-background {
@@ -39,13 +56,16 @@ body {
     line-height: 40px;
 }
 
-.banner-content p a {
+.banner-content p button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
 	color: white;
 	text-decoration: none;
 	background-color: rgba(130, 36, 226, 0.6);
     padding: 3px 8px 3px 8px;
     border-radius: 8px;
     border-style: none;
+	cursor: pointer;
 }
 
 .banner-content form {
@@ -60,7 +80,7 @@ body {
 	background-color: rgba(2, 2, 2, 0.3);
 	width: 250px;
 	height: 40px;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 15px;
     border-radius: 8px;
     border-style: none;
     font-family: "Montserrat", sans-serif;
@@ -71,6 +91,7 @@ body {
 
 .banner-content form button {
 	display: inline-flex;
+	cursor: pointer;
     vertical-align: top;
 	color: white;
     background-color: rgba(130, 36, 226);
@@ -92,7 +113,7 @@ body {
 }
 
 .display-vaga {
-    display: block;
+	display: block;
     margin-bottom: 20px;
     border: 1px solid #E7E6E8;
     border-radius: 8px;
@@ -101,6 +122,11 @@ body {
     box-shadow: 1px 5px 12px #FBF8FF;
     font-family: "Roboto", sans-serif;
 }
+
+.display-vaga * {
+	cursor: pointer;
+}
+
 
 .display-vaga h2 {
 	color: #8224E2;
@@ -152,6 +178,34 @@ body {
 .display-vaga:hover button {
 	background-color: #8224E2;
 }
+
+/* Pagination links */
+	.pagination a {
+		color: black;
+		background-color: rgba(130, 36, 226, 0.6);
+		float: left;
+		text-decoration: none;
+		transition: background-color .3s;
+	}
+
+	.pagination div {
+		color: black;
+		background-color: #ddd;
+		float: left;
+		text-decoration: none;
+		margin: 0 5px 0 0;
+		padding: 0 14px;
+		line-height: 42px;
+	}
+
+	/* Style the active/current link */
+	.pagination a.active {
+		background-color: #8224e3;
+		color: white;
+	}
+
+	/* Add a grey background color on mouse-over */
+	.pagination a:hover:not(.active) {background-color: #8224E2;}
 
 @media screen and (max-device-width: 960px) {
 	.img-background {
